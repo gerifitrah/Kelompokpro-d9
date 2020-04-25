@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px; 
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://wallpapertag.com/wallpaper/full/e/d/0/872129-amazing-desk-background-pictures-1920x1080-iphone.jpg);
+  background-size: cover;
+  color: white;
+  height:640px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-size:20px;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Menu About */
+/* Add a blue color to the author */
+
+
+
+
+
+
+
+
+
+
+
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  height:300px;
+}
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  position: absolute;
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    margin-top:90px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+  opacity: 0.7;
+  font-size: 35px;
+  
+}
+
+/* Add a blue color to the author */
+.author {
+  color: black;
+  opacity: 0.9;
+  font-size: 28px;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  margin-top: 30px;
+  padding: 0 8px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}

@@ -34,13 +34,6 @@ a {
   margin-right: 5px;
 }
 
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display:none;
-}
 
 
 header {
@@ -80,42 +73,13 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* Menu About */
-/* Add a blue color to the author */
-
-
-
-
-
-
-
-
-
-
-
-
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-
-/* Slideshow container */
+/* Slideshow  Quote*/
 .slideshow-container {
   position: relative;
   width: 100%;
   height:300px;
 }
-/* Slides */
+
 .mySlides {
   display: none;
   padding: 80px;
@@ -124,7 +88,6 @@ footer {
   text-align: center;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -139,7 +102,6 @@ footer {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   position: absolute;
   right: 0;
@@ -151,36 +113,33 @@ footer {
   left: 0;
   border-radius: 3px 0 0 3px;
 }
-/* On hover, add a black background color with a little bit see-through */
+
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
   color: white;
 }
 
-/* The dot/bullet/indicator container */
 .dot-container {
     text-align: center;
     margin-top:90px;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #000;
+  opacity:0.5;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
-/* Add a background color to the active dot/circle */
 .active, .dot:hover {
   background-color: #717171;
 }
 
-/* Add an italic font style to all quotes */
 q {
   font-style: italic;
   opacity: 0.7;
@@ -188,7 +147,7 @@ q {
   
 }
 
-/* Add a blue color to the author */
+/*Team Project Box*/
 .author {
   color: black;
   opacity: 0.9;
@@ -203,13 +162,11 @@ q {
   padding: 0 8px;
 }
 
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-
-.container::after, .row::after {
+.container_box::after, .row::after {
   content: "";
   clear: both;
   display: table;
@@ -233,4 +190,282 @@ q {
 
 .button:hover {
   background-color: #555;
+}
+
+/*Kontak Info*/
+
+.kontak-wrapper {
+  background-color: #f9f9f9;
+  background-image: url("../Asset/bg-kontak.png");
+  background-size: cover;
+  padding: 0.1px 0 50px 0;
+}
+
+.kontak-container {
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.kontak-container h2 {
+  font-size: 50px;
+  margin: 20px 0px 0px 0px;
+}
+
+.kontak-container p {
+  font-size: 20px;
+  margin: 30px 0px 0px 0px;
+}
+
+.kontak-form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.kontak-input {
+  width: 62%;
+  padding: 5px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: grey 0px 0px 1px 1px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.kontak-input:focus {
+  outline: none;
+  box-shadow: #4D90FE 0px 0px 1.5px 1.5px;
+  border-width: 0.5px;
+  padding: 5px;
+}
+
+.kontak-kirim {
+  margin-top: 10px;
+  padding: 10px 0px;
+  width: 62%;
+  background-color: #33cc33;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  box-shadow: #1e771e 0px 5px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.kontak-kirim:hover {
+  opacity: 0.9;
+}
+
+.kontak-kirim:focus {
+  outline: none;
+}
+
+.kontak-kirim:active {
+  position: relative;
+  opacity: 1;
+  top: 5px;
+  box-shadow: none;
+}
+
+.kontak-socmed {
+  width: 50%;
+  margin: 20px auto 0px auto;
+}
+
+.kontak-socmed a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 60px;
+  color: #949494;
+  opacity: 0.8;
+  margin: 0 20px;
+}
+
+.kontak-socmed a:hover {
+  opacity: 1;
+  text-shadow: 0px 0px 10px grey;
+}
+
+.email:hover {
+  color: black;
+}
+
+.facebook:hover {
+  color: #3b5998;
+}
+
+.twitter:hover {
+  color: #1da1f2;
+}
+
+.instagram:hover {
+  color: #8134af;
+}
+
+
+
+
+/*Footer*/
+.BG-footer {
+  width: 100%;
+}
+
+.anm-1 div{
+  float: left;
+  width: 20%;
+  height: 35px;
+}
+
+.box-1 {
+  background-color: orange;
+  animation-name: b1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes b1 {
+  0%   {background-color: #ff6b6b;}
+  25%  {background-color: #1dd1a1;}
+  50%  {background-color: #00d2d3;}
+  100% {background-color: #ff9f43;}
+}
+.box-2 {
+  background-color: blue;
+  animation-name: b2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes b2 {
+  0%   {background-color: #f368e0;}
+  25%  {background-color: #6ab04c;}
+  50%  {background-color: #f6e58d;}
+  100% {background-color: #686de0;}
+}
+.box-3 {
+  background-color: purple;
+  animation-name: b3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes b3 {
+  0%   {background-color: #be2edd;}
+  25%  {background-color: #c7ecee;}
+  50%  {background-color: #30336b;}
+  100% {background-color: #2980b9;}
+}
+
+.box-4 {
+  background-color: yellow;
+  animation-name: b4;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes b4 {
+  0%   {background-color: #e67e22;}
+  25%  {background-color: #2c3e50;}
+  50%  {background-color: #81ecec;}
+  100% {background-color: #00b894;}
+}
+
+.box-5 {
+  background-color: green;
+  animation-name: b5;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes b5 {
+  0%   {background-color: #636e72;}
+  25%  {background-color: #40407a;}
+  50%  {background-color: #ff793f;}
+  100% {background-color: #ffb142;}
+}
+
+.tengah {
+  text-align: center;
+  height: 225px;
+  background-color: #2d3436;
+  padding-bottom: 10px;
+}
+
+.tengah h1 {
+  color: #55efc4;
+  font-size: 35px;
+  font-family: "Palatino Linotype";
+}
+
+.tengah h2 {
+  color: #74b9ff;
+  font-size: 35px;
+  font-family: "Herculanum, Party LET";
+}
+
+.tengah h3 {
+  color: #fdcb6e;
+  font-size: 35px;
+  font-family: "Lucida Calligraphy";
+}
+
+.anm-2 {
+  height: 35px;
+  background-color: #ff5252;
+  animation-name: BG;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes BG {
+  0%   {background-color: #fa8231;}
+  25%  {background-color: #a55eea;}
+  50%  {background-color: #4b6584;}
+  100% {background-color: #badc58;}
+}
+
+.anm-2 div {
+  float: left;
+}
+
+.box-6 {
+  width: 20%;
+  height: 35px;
+  float: left;
+  background-color: blue;
+  animation-name: b6;
+  animation-duration: 4s;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes b6 {
+  0%   {background-color: #636e72; left: 0px}
+  33%  {background-color: #34e7e4;}
+  66%  {background-color: #05c46b}
+  100% {background-color: #546de5; left: 80%;}
+}
+
+.box-7 {
+  width: 20%;
+  height: 35px;
+  background-color: black;
+  left: 60%;
+  animation-name: b7;
+  animation-duration: 4s;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes b7 {
+  0%   {background-color: #636e72; left: 60%}
+  33%  {background-color: #34e7e4;}
+  66%  {background-color: #05c46b}
+  100% {background-color: #546de5; left: -20%;}
 }

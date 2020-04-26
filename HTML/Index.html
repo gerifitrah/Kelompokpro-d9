@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../CSS/stylesheet.css">
     <link rel="stylesheet" href="../CSS/responsive.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS/fontawesome-free-5.13.0-web/css/all.css">
   </head>
   <body>
     <header>
@@ -14,10 +15,7 @@
         <div class="header-left">
           <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
         </div>
-        
-        <div class="header-left">
-          <span class="fa fa-bars menu-icon"></span>
-        </div>
+  
         <div class="header-right">
           <a href="#">About</a>
           <a href="#">Colab</a>
@@ -27,130 +25,161 @@
       </div>
     </header>
 <!-- Top Info -->
-     <div class="top-wrapper">
-      <div class="container">
-        <div class="slideshow-container">
-          <div class="mySlides">
-            <q>Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results.</q>
-            <p class="author">– Andrew Carnegie</p>
-          </div>
-          
-          <div class="mySlides">
-            <q>It is the long history of humankind (and animal kind, too) that those who learned to collaborate and improvise most effectively have prevailed.</q>
-            <p class="author">– Charles Darwin</p>
-          </div>
-          
-          <div class="mySlides">
-            <q>I have not failed. I've just found 10,000 ways that won't work.</q>
-            <p class="author">- Thomas A. Edison</p>
-          </div>
+      <div class="top-wrapper">
+        <div class="container">
+          <div class="slideshow-container">
+            <div class="mySlides">
+              <q>Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results.</q>
+              <p class="author">– Andrew Carnegie</p>
+            </div>
+            
+            <div class="mySlides">
+              <q>It is the long history of humankind (and animal kind, too) that those who learned to collaborate and improvise most effectively have prevailed.</q>
+              <p class="author">– Charles Darwin</p>
+            </div>
+            
+            <div class="mySlides">
+              <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+              <p class="author">- Thomas A. Edison</p>
+            </div>
 
-          <div class="mySlides">
-            <q>Coming together is a beginning, staying together is progress, and working together is success.</q>
-            <p class="author">– Henry Ford</p>
-          </div>
+            <div class="mySlides">
+              <q>Coming together is a beginning, staying together is progress, and working together is success.</q>
+              <p class="author">– Henry Ford</p>
+            </div>
+            
+            <div class="mySlides">
+              <q>Talent wins games, but teamwork and intelligence win championships.</q>
+              <p class="author">– Michael Jordan</p>
+            </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
           
-          <div class="mySlides">
-            <q>Talent wins games, but teamwork and intelligence win championships.</q>
-            <p class="author">– Michael Jordan</p>
+          <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
           </div>
-          </div>
-          <a class="prev" onclick="plusSlides(-1)">❮</a>
-          <a class="next" onclick="plusSlides(1)">❯</a>
         
-        <div class="dot-container">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span> 
-          <span class="dot" onclick="currentSlide(4)"></span> 
-          <span class="dot" onclick="currentSlide(5)"></span> 
         </div>
-      
       </div>
-    </div>
 <!-- Team Info -->
-<div class="row">
-  <div class="container">
-    <div class="column">
-      <div class="card">
-        <img src="../Asset/2.jpg" alt="Mike" style="width:100%">
-        <div class="container">
-          <h2>Fadila Rafi A</h2>
-          <p class="title">Art Director</p>
-          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-          <p>example@example.com</p>
-          <p><button class="button">Contact</button></p>
+<div class="container">
+      <div class="row">
+        
+          <div class="column">
+            <div class="card">
+              <img src="../Asset/2.jpg" alt="Mike" style="width:100%">
+              <div class="container_box">
+                <h2>Fadila Rafi A</h2>
+                <p class="title">Art Director</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="../Asset/3.jpg" alt="John" style="width:100%">
+              <div class="container_box">
+                <h2>Fauzy Nur R</h2>
+                <p class="title">Designer</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="../Asset/4.jpg" alt="John" style="width:100%">
+              <div class="container_box">
+                <h2>Ferrel</h2>
+                <p class="title">Designer</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="../Asset/5.jpg" alt="John" style="width:100%">
+              <div class="container_box">
+                <h2>Gawan dikapandu</h2>
+                <p class="title">Designer</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img src="../Asset/1.jpg" alt="Geri" style="width:100%">
+              <div class="container_box">
+                <h2>Geri Fitrah</h2>
+                <p class="title">CEO & Founder</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- Kontak Info -->
+    <div class="container">
+      <div class="kontak-wrapper">
+        <div class="kontak-container">
+            <h2>Contact Us</h2>
+            <p>Fill the form bellow to send us a massages</p>
+            <div class="kontak-form">
+                <input class="kontak-input" type="text" placeholder="Nama anda">
+                <br>
+                <input class="kontak-input" type="text" placeholder="Email anda">
+                <br>
+                <textarea class="kontak-input" rows="5" placeholder="Pesan anda untuk kami"></textarea>
+                <br>
+                <input class="kontak-kirim" type="submit" value="Kirim!">
+            </div>
+            <div class="kontak-socmed">
+                <a href="#" class="fa fa-envelope email"></a>
+                <a href="#" class="fab fa-facebook facebook"></a>
+                <a href="#" class="fab fa-twitter twitter"></a>
+                <a href="#" class="fab fa-instagram instagram"></a>
+            </div>
         </div>
       </div>
     </div>
-
-    <div class="column">
-      <div class="card">
-        <img src="../Asset/3.jpg" alt="John" style="width:100%">
-        <div class="container">
-          <h2>Fauzy Nur R</h2>
-          <p class="title">Designer</p>
-          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-          <p>example@example.com</p>
-          <p><button class="button">Contact</button></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <img src="../Asset/4.jpg" alt="John" style="width:100%">
-        <div class="container">
-          <h2>Ferrel</h2>
-          <p class="title">Designer</p>
-          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-          <p>example@example.com</p>
-          <p><button class="button">Contact</button></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <img src="../Asset/5.jpg" alt="John" style="width:100%">
-        <div class="container">
-          <h2>Gawan dikapandu</h2>
-          <p class="title">Designer</p>
-          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-          <p>example@example.com</p>
-          <p><button class="button">Contact</button></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="column">
-      <div class="card">
-        <img src="../Asset/1.jpg" alt="Geri" style="width:100%">
-        <div class="container">
-          <h2>Geri Fitrah</h2>
-          <p class="title">CEO & Founder</p>
-          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-          <p>example@example.com</p>
-          <p><button class="button">Contact</button></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
 
     <footer>
-      <div class="container">
-        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-        <p>Learn to code, learn to be creative.</p>
-      </div>
+      <div class="BG-footer">
+        <div class="anm-1">
+          <div class="box-1"></div>
+          <div class="box-2"></div>
+          <div class="box-3"></div>
+          <div class="box-4"></div>
+          <div class="box-5"></div>
+        </div>
+        <div class="tengah">
+          <h1>Thanks</h1>
+          <h2>for</h2>
+          <h3>Visiting Us</h3>
+        </div>
+        <div class="anm-2">
+          <div class="box-6"></div>
+          <div class="box-7"></div>
+        </div>
+     </div>
     </footer>
 
 

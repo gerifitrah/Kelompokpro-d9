@@ -1,0 +1,107 @@
+.kontak-wrapper {
+    background-color: #f9f9f9;
+    background-image: url("../Asset/bg-kontak.png");
+    background-size: cover;
+    padding: 0.1px 0 50px 0;
+}
+
+.kontak-container {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kontak-container h2 {
+    font-size: 50px;
+    margin: 20px 0px 0px 0px;
+}
+
+.kontak-container p {
+    font-size: 20px;
+    margin: 30px 0px 0px 0px;
+}
+
+.kontak-form {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.kontak-input {
+    width: 62%;
+    padding: 5px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: grey 0px 0px 1px 1px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kontak-input:focus {
+    outline: none;
+    box-shadow: #4D90FE 0px 0px 1.5px 1.5px;
+    border-width: 0.5px;
+    padding: 5px;
+}
+
+.kontak-kirim {
+    margin-top: 10px;
+    padding: 10px 0px;
+    width: 62%;
+    background-color: #33cc33;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: #1e771e 0px 5px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.kontak-kirim:hover {
+    opacity: 0.9;
+}
+
+.kontak-kirim:active {
+    position: relative;
+    opacity: 1;
+    top: 5px;
+    box-shadow: none;
+}
+
+.kontak-socmed {
+    width: 50%;
+    margin: 20px auto 0px auto;
+}
+
+.kontak-socmed a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 60px;
+    color: #949494;
+    opacity: 0.8;
+    margin: 0 20px;
+}
+
+.kontak-socmed a:hover {
+    opacity: 1;
+}
+
+.email:hover {
+    color: black;
+}
+
+.facebook:hover {
+    color: #3b5998;
+}
+
+.twitter:hover {
+    color: #1da1f2;
+}
+
+.instagram:hover {
+    color: #8134af;
+}

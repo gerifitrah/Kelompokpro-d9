@@ -18,9 +18,24 @@
     width: 15px;
   }
   
-  .heading h2 {
-    font-size: 20px;
+
+  .column p{
+    font-size:15px;
   }
+
+  .team-header h1{
+  font-size: 40px;
+  }
+
+  .team-header p{
+  font-size: 20px;
+  }
+
+  .card p{
+    font-size:13px;
+  }
+
+
 }
 
 /* Untuk Smartphone */
@@ -46,5 +61,45 @@
     padding: 18px 18px;
   }
 
+  .kontak-socmed a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 30px;
+  color: #949494;
+  opacity: 0.8;
+  margin: 0 auto;
+  
+  }
+  .kontak-form {
+  margin: 0 auto;
+  width: 100%;
+  }
+
+  .card{
+    height:auto;
+  }
+  
+  .team-header {
+    margin-bottom:15px;
+    text-align:left;
+  }
+
+ .team-header h1{
+  font-size: 30px;
+  
+  }
+  .team-header p{
+  font-size: 15px;
+
+  }
+
+  .kontak-container h2 {
+    font-size: 30px;
+  }
+
+  .kontak-container p {
+    font-size: 15px;
+    margin: 10px;
+  }
 
 }
